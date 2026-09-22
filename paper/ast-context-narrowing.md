@@ -1,8 +1,8 @@
 # AST-Based Structural Narrowing for Diff Context: A Third Alternative to Raw Hunks and Whole Files
 
 **Author:** Edgar Herrador
-**Affiliation:** Independent
-**Contact:** edgar.herrador@gmail.com    github.com/eherrador
+**Affiliation:** Senior AI Engineer @ Trimble
+**Contact:** edgar.herrador@gmail.com   edgar_herrador@trimble.com   github.com/eherrador
 
 ## Abstract
 

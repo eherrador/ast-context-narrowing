@@ -7,6 +7,7 @@ doi: 10.5281/zenodo.22905152
 authors:
   - family-names: Herrador
     given-names: Edgar
+    affiliation: Trimble
 repository-code: "https://github.com/eherrador/ast-context-narrowing"
 abstract: >-
   A small library that narrows a code diff to the structural definition it
@@ -28,5 +29,6 @@ preferred-citation:
   authors:
     - family-names: Herrador
       given-names: Edgar
+      affiliation: Trimble
   year: 2026
   url: "https://github.com/eherrador/ast-context-narrowing/blob/main/paper/ast-context-narrowing.pdf"
