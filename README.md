@@ -1,6 +1,6 @@
 # ast-context-narrowing
 
-[![DOI](https://zenodo.org/badge/1382151111.svg)](https://doi.org/10.5281/zenodo.22905152)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22905152-blue.svg)](https://doi.org/10.5281/zenodo.22905152)
 
 Narrow a code diff to the structural definition it touched — a method, function,
 class, or field — instead of the raw diff hunk or the whole file.
