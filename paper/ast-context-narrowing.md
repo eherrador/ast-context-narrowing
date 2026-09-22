@@ -2,7 +2,7 @@
 
 **Author:** Edgar Herrador
 **Affiliation:** Independent
-**Contact:** github.com/eherrador
+**Contact:** edgar.herrador@gmail.com    github.com/eherrador
 
 ## Abstract
 

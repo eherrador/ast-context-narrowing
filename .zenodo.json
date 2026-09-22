@@ -1,0 +1,23 @@
+{
+  "title": "ast-context-narrowing: AST-Based Structural Narrowing for Diff Context",
+  "description": "A small library that narrows a code diff to the structural definition it touched -- a method, function, class, or field -- by walking a Tree-sitter AST from the changed byte range upward, instead of using the raw diff hunk or the whole file. Supports C#, TypeScript, TSX, and JavaScript. Includes a regression test suite and a reproducible evaluation harness run against real merged pull requests from a large open-source project.",
+  "creators": [
+    {
+      "name": "Herrador, Edgar",
+      "affiliation": "Independent"
+    }
+  ],
+  "keywords": [
+    "ast",
+    "tree-sitter",
+    "diff",
+    "fine-tuning",
+    "llm",
+    "code-review",
+    "dataset-curation",
+    "software-engineering-research"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
+}

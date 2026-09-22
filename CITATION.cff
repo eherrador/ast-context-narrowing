@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or its accompanying paper, please cite it as below."
+title: "ast-context-narrowing: AST-Based Structural Narrowing for Diff Context"
+version: 0.1.0
+date-released: 2026-09-22
+authors:
+  - family-names: Herrador
+    given-names: Edgar
+repository-code: "https://github.com/eherrador/ast-context-narrowing"
+abstract: >-
+  A small library that narrows a code diff to the structural definition it
+  touched -- a method, function, class, or field -- by walking a Tree-sitter
+  AST from the changed byte range upward, instead of using the raw diff hunk
+  or the whole file. Supports C#, TypeScript, TSX, and JavaScript.
+keywords:
+  - ast
+  - tree-sitter
+  - diff
+  - fine-tuning
+  - llm
+  - code-review
+  - dataset-curation
+license: MIT
+preferred-citation:
+  type: article
+  title: "AST-Based Structural Narrowing for Diff Context: A Third Alternative to Raw Hunks and Whole Files"
+  authors:
+    - family-names: Herrador
+      given-names: Edgar
+  year: 2026
+  url: "https://github.com/eherrador/ast-context-narrowing/blob/main/paper/ast-context-narrowing.md"
