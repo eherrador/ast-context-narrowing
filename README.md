@@ -125,6 +125,27 @@ pip install -e .[dev]
 pytest tests/ -v
 ```
 
+## Evaluation
+
+Run against 175 real file changes from 37 merged pull requests in
+[`nestjs/nest`](https://github.com/nestjs/nest) (a large, active, real-world
+TypeScript project), narrowing resolved a definition node for every change, with a
+**median 71.8% reduction** in line count relative to whole-file context (mean
+53.2%; the distribution is bimodal — see the paper for why). Reproduce with:
+
+```bash
+python evaluation/run_public_repo_eval.py --owner nestjs --repo nest --max-prs 100
+```
+
+Full methodology, honest discussion of what the 100% resolution rate does and
+doesn't mean, and per-file raw results: [`paper/ast-context-narrowing.md`](paper/ast-context-narrowing.md)
+(Section 4) / [`evaluation/results/nestjs_nest.json`](evaluation/results/nestjs_nest.json).
+
+## Further reading
+
+- [`paper/ast-context-narrowing.md`](paper/ast-context-narrowing.md) — full technical write-up (motivation, method, evaluation, related work, limitations).
+- [`blog/ast-context-narrowing-blog.md`](blog/ast-context-narrowing-blog.md) — shorter, less formal version of the same content.
+
 ## Origin
 
 Extracted and generalized from the data-curation pipeline of a small-language-model

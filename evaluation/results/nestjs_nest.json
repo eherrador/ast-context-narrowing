@@ -1,0 +1,1771 @@
+{
+  "summary": {
+    "total_file_changes_evaluated": 175,
+    "structural_narrowing_succeeded": 175,
+    "structural_narrowing_rate": 1.0,
+    "unavailable": 0,
+    "errors": 0,
+    "mean_line_reduction": 0.5324939103558948,
+    "median_line_reduction": 0.7178217821782178,
+    "mean_byte_reduction": 0.5404967751665914,
+    "median_byte_reduction": 0.7644767132990968,
+    "by_language": {
+      "typescript": {
+        "total": 175,
+        "structural": 175
+      }
+    }
+  },
+  "records": [
+    {
+      "pr": 17845,
+      "file": "packages/common/interfaces/nest-application.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 211,
+      "whole_file_bytes": 6797,
+      "narrowed_output_lines": 1,
+      "narrowed_output_bytes": 68
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/application-config.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 192,
+      "whole_file_bytes": 5670,
+      "narrowed_output_lines": 176,
+      "narrowed_output_bytes": 5117
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/middleware/route-info-path-extractor.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 124,
+      "whole_file_bytes": 4030,
+      "narrowed_output_lines": 111,
+      "narrowed_output_bytes": 3479
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/nest-application.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 749,
+      "whole_file_bytes": 24495,
+      "narrowed_output_lines": 111,
+      "narrowed_output_bytes": 4453
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/router/interfaces/resolver.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 14,
+      "whole_file_bytes": 487,
+      "narrowed_output_lines": 5,
+      "narrowed_output_bytes": 97
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/router/interfaces/route-path-metadata.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 39,
+      "whole_file_bytes": 906,
+      "narrowed_output_lines": 1,
+      "narrowed_output_bytes": 21
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/router/route-path-factory.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 170,
+      "whole_file_bytes": 4840,
+      "narrowed_output_lines": 58,
+      "narrowed_output_bytes": 1709
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/router/routes-resolver.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 216,
+      "whole_file_bytes": 7026,
+      "narrowed_output_lines": 80,
+      "narrowed_output_bytes": 2258
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/test/application-config.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 253,
+      "whole_file_bytes": 8574,
+      "narrowed_output_lines": 28,
+      "narrowed_output_bytes": 889
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/test/middleware/route-info-path-extractor.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 184,
+      "whole_file_bytes": 4984,
+      "narrowed_output_lines": 123,
+      "narrowed_output_bytes": 2849
+    },
+    {
+      "pr": 17845,
+      "file": "packages/core/test/router/route-path-factory.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 362,
+      "whole_file_bytes": 10293,
+      "narrowed_output_lines": 357,
+      "narrowed_output_bytes": 9996
+    },
+    {
+      "pr": 17713,
+      "file": "packages/common/interfaces/nest-application.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 170,
+      "whole_file_bytes": 4742,
+      "narrowed_output_lines": 4,
+      "narrowed_output_bytes": 92
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/application-config.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 204,
+      "whole_file_bytes": 6300,
+      "narrowed_output_lines": 189,
+      "narrowed_output_bytes": 5819
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/middleware/route-info-path-extractor.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 137,
+      "whole_file_bytes": 4396,
+      "narrowed_output_lines": 124,
+      "narrowed_output_bytes": 3845
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/nest-application.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 670,
+      "whole_file_bytes": 21149,
+      "narrowed_output_lines": 117,
+      "narrowed_output_bytes": 4559
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/router/interfaces/resolver.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 14,
+      "whole_file_bytes": 498,
+      "narrowed_output_lines": 5,
+      "narrowed_output_bytes": 108
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/router/interfaces/route-path-metadata.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 40,
+      "whole_file_bytes": 970,
+      "narrowed_output_lines": 1,
+      "narrowed_output_bytes": 32
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/router/route-path-factory.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 178,
+      "whole_file_bytes": 5066,
+      "narrowed_output_lines": 66,
+      "narrowed_output_bytes": 1935
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/router/routes-resolver.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 216,
+      "whole_file_bytes": 7048,
+      "narrowed_output_lines": 80,
+      "narrowed_output_bytes": 2280
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/test/application-config.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 275,
+      "whole_file_bytes": 9409,
+      "narrowed_output_lines": 50,
+      "narrowed_output_bytes": 1724
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/test/middleware/route-info-path-extractor.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 184,
+      "whole_file_bytes": 4996,
+      "narrowed_output_lines": 123,
+      "narrowed_output_bytes": 2861
+    },
+    {
+      "pr": 17713,
+      "file": "packages/core/test/router/route-path-factory.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 417,
+      "whole_file_bytes": 11911,
+      "narrowed_output_lines": 269,
+      "narrowed_output_bytes": 7454
+    },
+    {
+      "pr": 17840,
+      "file": "packages/core/router/router-explorer.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 526,
+      "whole_file_bytes": 16928,
+      "narrowed_output_lines": 60,
+      "narrowed_output_bytes": 2072
+    },
+    {
+      "pr": 17840,
+      "file": "packages/core/test/router/router-explorer.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 307,
+      "whole_file_bytes": 9394,
+      "narrowed_output_lines": 285,
+      "narrowed_output_bytes": 8066
+    },
+    {
+      "pr": 17838,
+      "file": "integration/injector/e2e/inherited-optional.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 83,
+      "whole_file_bytes": 2201,
+      "narrowed_output_lines": 83,
+      "narrowed_output_bytes": 2200
+    },
+    {
+      "pr": 17838,
+      "file": "packages/core/injector/injector.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1360,
+      "whole_file_bytes": 41850,
+      "narrowed_output_lines": 1271,
+      "narrowed_output_bytes": 39440
+    },
+    {
+      "pr": 17838,
+      "file": "packages/core/test/injector/injector.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1200,
+      "whole_file_bytes": 37329,
+      "narrowed_output_lines": 108,
+      "narrowed_output_bytes": 3564
+    },
+    {
+      "pr": 17828,
+      "file": "packages/microservices/client/client-redis.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 410,
+      "whole_file_bytes": 12744,
+      "narrowed_output_lines": 386,
+      "narrowed_output_bytes": 11911
+    },
+    {
+      "pr": 17819,
+      "file": "packages/core/errors/messages.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 297,
+      "whole_file_bytes": 11558,
+      "narrowed_output_lines": 9,
+      "narrowed_output_bytes": 575
+    },
+    {
+      "pr": 17819,
+      "file": "packages/core/injector/container.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 375,
+      "whole_file_bytes": 11370,
+      "narrowed_output_lines": 42,
+      "narrowed_output_bytes": 1043
+    },
+    {
+      "pr": 17819,
+      "file": "packages/core/injector/module.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 688,
+      "whole_file_bytes": 18740,
+      "narrowed_output_lines": 26,
+      "narrowed_output_bytes": 944
+    },
+    {
+      "pr": 17819,
+      "file": "packages/core/test/errors/test/messages.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 539,
+      "whole_file_bytes": 20955,
+      "narrowed_output_lines": 538,
+      "narrowed_output_bytes": 20664
+    },
+    {
+      "pr": 17819,
+      "file": "packages/core/test/injector/container.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 275,
+      "whole_file_bytes": 9441,
+      "narrowed_output_lines": 268,
+      "narrowed_output_bytes": 8960
+    },
+    {
+      "pr": 17819,
+      "file": "packages/core/test/injector/module.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 611,
+      "whole_file_bytes": 20694,
+      "narrowed_output_lines": 603,
+      "narrowed_output_bytes": 19958
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/client/client-kafka.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 461,
+      "whole_file_bytes": 13342,
+      "narrowed_output_lines": 17,
+      "narrowed_output_bytes": 518
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/client/client-mqtt.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 372,
+      "whole_file_bytes": 11095,
+      "narrowed_output_lines": 17,
+      "narrowed_output_bytes": 518
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/client/client-redis.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 366,
+      "whole_file_bytes": 11071,
+      "narrowed_output_lines": 18,
+      "narrowed_output_bytes": 555
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/client/client-tcp.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 241,
+      "whole_file_bytes": 7253,
+      "narrowed_output_lines": 20,
+      "narrowed_output_bytes": 578
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/test/client/client-kafka.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 979,
+      "whole_file_bytes": 28117,
+      "narrowed_output_lines": 61,
+      "narrowed_output_bytes": 2224
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/test/client/client-mqtt.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 586,
+      "whole_file_bytes": 19944,
+      "narrowed_output_lines": 87,
+      "narrowed_output_bytes": 2943
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/test/client/client-redis.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 632,
+      "whole_file_bytes": 21625,
+      "narrowed_output_lines": 141,
+      "narrowed_output_bytes": 4894
+    },
+    {
+      "pr": 17810,
+      "file": "packages/microservices/test/client/client-tcp.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 339,
+      "whole_file_bytes": 11096,
+      "narrowed_output_lines": 59,
+      "narrowed_output_bytes": 1956
+    },
+    {
+      "pr": 17826,
+      "file": "packages/core/helpers/handler-metadata-storage.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 67,
+      "whole_file_bytes": 2153,
+      "narrowed_output_lines": 6,
+      "narrowed_output_bytes": 162
+    },
+    {
+      "pr": 17826,
+      "file": "packages/core/router/router-execution-context.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 607,
+      "whole_file_bytes": 18242,
+      "narrowed_output_lines": 607,
+      "narrowed_output_bytes": 18241
+    },
+    {
+      "pr": 17824,
+      "file": "packages/platform-fastify/adapters/fastify-adapter.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1087,
+      "whole_file_bytes": 31992,
+      "narrowed_output_lines": 1087,
+      "narrowed_output_bytes": 31991
+    },
+    {
+      "pr": 17824,
+      "file": "packages/platform-fastify/test/adapters/fastify-adapter.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 275,
+      "whole_file_bytes": 9497,
+      "narrowed_output_lines": 265,
+      "narrowed_output_bytes": 9190
+    },
+    {
+      "pr": 17827,
+      "file": "packages/common/pipes/parse-date.pipe.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 89,
+      "whole_file_bytes": 2614,
+      "narrowed_output_lines": 33,
+      "narrowed_output_bytes": 866
+    },
+    {
+      "pr": 17827,
+      "file": "packages/common/test/pipes/parse-date.pipe.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 116,
+      "whole_file_bytes": 4308,
+      "narrowed_output_lines": 56,
+      "narrowed_output_bytes": 1992
+    },
+    {
+      "pr": 17822,
+      "file": "packages/microservices/client/client-mqtt.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 387,
+      "whole_file_bytes": 11660,
+      "narrowed_output_lines": 82,
+      "narrowed_output_bytes": 2593
+    },
+    {
+      "pr": 17822,
+      "file": "packages/microservices/client/client-redis.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 382,
+      "whole_file_bytes": 11621,
+      "narrowed_output_lines": 73,
+      "narrowed_output_bytes": 2320
+    },
+    {
+      "pr": 17822,
+      "file": "packages/microservices/client/client-tcp.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 237,
+      "whole_file_bytes": 7047,
+      "narrowed_output_lines": 21,
+      "narrowed_output_bytes": 547
+    },
+    {
+      "pr": 17822,
+      "file": "packages/microservices/test/client/client-mqtt.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 621,
+      "whole_file_bytes": 21092,
+      "narrowed_output_lines": 246,
+      "narrowed_output_bytes": 8689
+    },
+    {
+      "pr": 17822,
+      "file": "packages/microservices/test/client/client-redis.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 667,
+      "whole_file_bytes": 22743,
+      "narrowed_output_lines": 204,
+      "narrowed_output_bytes": 7130
+    },
+    {
+      "pr": 17822,
+      "file": "packages/microservices/test/client/client-tcp.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 318,
+      "whole_file_bytes": 10223,
+      "narrowed_output_lines": 21,
+      "narrowed_output_bytes": 623
+    },
+    {
+      "pr": 17834,
+      "file": "packages/common/decorators/http/route-params.decorator.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1132,
+      "whole_file_bytes": 35931,
+      "narrowed_output_lines": 1132,
+      "narrowed_output_bytes": 35930
+    },
+    {
+      "pr": 17834,
+      "file": "packages/common/enums/route-paramtypes.enum.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 18,
+      "whole_file_bytes": 260,
+      "narrowed_output_lines": 18,
+      "narrowed_output_bytes": 259
+    },
+    {
+      "pr": 17834,
+      "file": "packages/common/index.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 82,
+      "whole_file_bytes": 1799,
+      "narrowed_output_lines": 65,
+      "narrowed_output_bytes": 1328
+    },
+    {
+      "pr": 17834,
+      "file": "packages/common/interfaces/http/http-server.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 676,
+      "whole_file_bytes": 31689,
+      "narrowed_output_lines": 505,
+      "narrowed_output_bytes": 23463
+    },
+    {
+      "pr": 17834,
+      "file": "packages/common/interfaces/http/index.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 8,
+      "whole_file_bytes": 406,
+      "narrowed_output_lines": 1,
+      "narrowed_output_bytes": 46
+    },
+    {
+      "pr": 17834,
+      "file": "packages/common/interfaces/nest-application-options.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 64,
+      "whole_file_bytes": 2224,
+      "narrowed_output_lines": 5,
+      "narrowed_output_bytes": 102
+    },
+    {
+      "pr": 17834,
+      "file": "packages/common/test/decorators/route-params.decorator.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1340,
+      "whole_file_bytes": 37836,
+      "narrowed_output_lines": 1340,
+      "narrowed_output_bytes": 37835
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/adapters/http-adapter.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 682,
+      "whole_file_bytes": 22185,
+      "narrowed_output_lines": 682,
+      "narrowed_output_bytes": 22184
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/application-config.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 192,
+      "whole_file_bytes": 5670,
+      "narrowed_output_lines": 180,
+      "narrowed_output_bytes": 5198
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/nest-application.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 749,
+      "whole_file_bytes": 24495,
+      "narrowed_output_lines": 46,
+      "narrowed_output_bytes": 1470
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/router/route-params-factory.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 68,
+      "whole_file_bytes": 2284,
+      "narrowed_output_lines": 68,
+      "narrowed_output_bytes": 2283
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/router/router-execution-context.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 521,
+      "whole_file_bytes": 15332,
+      "narrowed_output_lines": 13,
+      "narrowed_output_bytes": 428
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/router/router-explorer.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 522,
+      "whole_file_bytes": 16782,
+      "narrowed_output_lines": 1,
+      "narrowed_output_bytes": 58
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/test/nest-application.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 608,
+      "whole_file_bytes": 21057,
+      "narrowed_output_lines": 600,
+      "narrowed_output_bytes": 20424
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/test/router/route-params-factory.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 248,
+      "whole_file_bytes": 7634,
+      "narrowed_output_lines": 248,
+      "narrowed_output_bytes": 7633
+    },
+    {
+      "pr": 17834,
+      "file": "packages/core/test/router/router-execution-context.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 619,
+      "whole_file_bytes": 21526,
+      "narrowed_output_lines": 13,
+      "narrowed_output_bytes": 728
+    },
+    {
+      "pr": 17835,
+      "file": "packages/platform-fastify/adapters/fastify-adapter.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1140,
+      "whole_file_bytes": 34359,
+      "narrowed_output_lines": 1140,
+      "narrowed_output_bytes": 34358
+    },
+    {
+      "pr": 17835,
+      "file": "packages/platform-fastify/index.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 11,
+      "whole_file_bytes": 269,
+      "narrowed_output_lines": 1,
+      "narrowed_output_bytes": 37
+    },
+    {
+      "pr": 17835,
+      "file": "packages/platform-fastify/interfaces/external/index.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 3,
+      "whole_file_bytes": 166,
+      "narrowed_output_lines": 1,
+      "narrowed_output_bytes": 57
+    },
+    {
+      "pr": 17835,
+      "file": "packages/testing/test/testing-module.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 197,
+      "whole_file_bytes": 5588,
+      "narrowed_output_lines": 74,
+      "narrowed_output_bytes": 2166
+    },
+    {
+      "pr": 17835,
+      "file": "packages/testing/testing-module.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 157,
+      "whole_file_bytes": 4416,
+      "narrowed_output_lines": 31,
+      "narrowed_output_bytes": 893
+    },
+    {
+      "pr": 17836,
+      "file": "packages/common/index.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 80,
+      "whole_file_bytes": 1755,
+      "narrowed_output_lines": 63,
+      "narrowed_output_bytes": 1284
+    },
+    {
+      "pr": 17836,
+      "file": "packages/common/interfaces/http/http-server.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 652,
+      "whole_file_bytes": 30812,
+      "narrowed_output_lines": 11,
+      "narrowed_output_bytes": 282
+    },
+    {
+      "pr": 17836,
+      "file": "packages/common/interfaces/http/index.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 7,
+      "whole_file_bytes": 359,
+      "narrowed_output_lines": 7,
+      "narrowed_output_bytes": 358
+    },
+    {
+      "pr": 17836,
+      "file": "packages/common/interfaces/nest-application.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 211,
+      "whole_file_bytes": 6797,
+      "narrowed_output_lines": 211,
+      "narrowed_output_bytes": 6796
+    },
+    {
+      "pr": 17836,
+      "file": "packages/common/internal.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 58,
+      "whole_file_bytes": 2428,
+      "narrowed_output_lines": 4,
+      "narrowed_output_bytes": 107
+    },
+    {
+      "pr": 17836,
+      "file": "packages/core/adapters/http-adapter.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 596,
+      "whole_file_bytes": 19274,
+      "narrowed_output_lines": 57,
+      "narrowed_output_bytes": 2388
+    },
+    {
+      "pr": 17836,
+      "file": "packages/core/nest-application.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 728,
+      "whole_file_bytes": 23637,
+      "narrowed_output_lines": 728,
+      "narrowed_output_bytes": 23636
+    },
+    {
+      "pr": 17836,
+      "file": "packages/platform-fastify/adapters/fastify-adapter.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1061,
+      "whole_file_bytes": 31396,
+      "narrowed_output_lines": 16,
+      "narrowed_output_bytes": 336
+    },
+    {
+      "pr": 17833,
+      "file": "packages/microservices/server/server-grpc.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 815,
+      "whole_file_bytes": 26484,
+      "narrowed_output_lines": 5,
+      "narrowed_output_bytes": 143
+    },
+    {
+      "pr": 17833,
+      "file": "packages/platform-express/test/multer/multer/multer.utils.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 169,
+      "whole_file_bytes": 6250,
+      "narrowed_output_lines": 11,
+      "narrowed_output_bytes": 356
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/multer/interceptors/any-files.interceptor.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 61,
+      "whole_file_bytes": 1529,
+      "narrowed_output_lines": 14,
+      "narrowed_output_bytes": 300
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/multer/interceptors/file-fields.interceptor.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 69,
+      "whole_file_bytes": 1668,
+      "narrowed_output_lines": 14,
+      "narrowed_output_bytes": 300
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/multer/interceptors/file.interceptor.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 67,
+      "whole_file_bytes": 1631,
+      "narrowed_output_lines": 14,
+      "narrowed_output_bytes": 300
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/multer/interceptors/files.interceptor.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 70,
+      "whole_file_bytes": 1684,
+      "narrowed_output_lines": 14,
+      "narrowed_output_bytes": 300
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/multer/interceptors/no-files.interceptor.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 61,
+      "whole_file_bytes": 1529,
+      "narrowed_output_lines": 14,
+      "narrowed_output_bytes": 300
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/multer/interfaces/multer-options.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 78,
+      "whole_file_bytes": 2540,
+      "narrowed_output_lines": 20,
+      "narrowed_output_bytes": 764
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/multer/multer/multer.utils.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 74,
+      "whole_file_bytes": 3091,
+      "narrowed_output_lines": 74,
+      "narrowed_output_bytes": 3090
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/test/multer/interceptors/any-files.interceptor.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 49,
+      "whole_file_bytes": 1745,
+      "narrowed_output_lines": 44,
+      "narrowed_output_bytes": 1459
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/test/multer/interceptors/file-fields.interceptor.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 68,
+      "whole_file_bytes": 2442,
+      "narrowed_output_lines": 63,
+      "narrowed_output_bytes": 2147
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/test/multer/interceptors/file.interceptor.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 50,
+      "whole_file_bytes": 1835,
+      "narrowed_output_lines": 45,
+      "narrowed_output_bytes": 1559
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/test/multer/interceptors/files.interceptor.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 52,
+      "whole_file_bytes": 1888,
+      "narrowed_output_lines": 47,
+      "narrowed_output_bytes": 1609
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/test/multer/interceptors/no-files.interceptor.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 48,
+      "whole_file_bytes": 1695,
+      "narrowed_output_lines": 43,
+      "narrowed_output_bytes": 1409
+    },
+    {
+      "pr": 17818,
+      "file": "packages/platform-express/test/multer/multer/multer.utils.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 169,
+      "whole_file_bytes": 6249,
+      "narrowed_output_lines": 169,
+      "narrowed_output_bytes": 6248
+    },
+    {
+      "pr": 17816,
+      "file": "packages/microservices/client/client-kafka.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 477,
+      "whole_file_bytes": 13933,
+      "narrowed_output_lines": 420,
+      "narrowed_output_bytes": 12449
+    },
+    {
+      "pr": 17816,
+      "file": "packages/microservices/test/client/client-kafka.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 979,
+      "whole_file_bytes": 28286,
+      "narrowed_output_lines": 136,
+      "narrowed_output_bytes": 4536
+    },
+    {
+      "pr": 17821,
+      "file": "packages/core/injector/injector.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1335,
+      "whole_file_bytes": 40855,
+      "narrowed_output_lines": 54,
+      "narrowed_output_bytes": 1786
+    },
+    {
+      "pr": 17821,
+      "file": "packages/core/test/injector/injector.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1131,
+      "whole_file_bytes": 35117,
+      "narrowed_output_lines": 129,
+      "narrowed_output_bytes": 3834
+    },
+    {
+      "pr": 17786,
+      "file": "packages/microservices/client/client-rmq.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 547,
+      "whole_file_bytes": 16378,
+      "narrowed_output_lines": 487,
+      "narrowed_output_bytes": 14402
+    },
+    {
+      "pr": 17786,
+      "file": "packages/microservices/test/client/client-rmq.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 620,
+      "whole_file_bytes": 20483,
+      "narrowed_output_lines": 135,
+      "narrowed_output_bytes": 4439
+    },
+    {
+      "pr": 17802,
+      "file": "packages/microservices/client/client-nats.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 344,
+      "whole_file_bytes": 9907,
+      "narrowed_output_lines": 307,
+      "narrowed_output_bytes": 8569
+    },
+    {
+      "pr": 17802,
+      "file": "packages/microservices/test/client/client-nats.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 526,
+      "whole_file_bytes": 16941,
+      "narrowed_output_lines": 127,
+      "narrowed_output_bytes": 3990
+    },
+    {
+      "pr": 17803,
+      "file": "packages/microservices/client/client-grpc.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 401,
+      "whole_file_bytes": 12569,
+      "narrowed_output_lines": 21,
+      "narrowed_output_bytes": 440
+    },
+    {
+      "pr": 17803,
+      "file": "packages/microservices/server/server-grpc.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 815,
+      "whole_file_bytes": 26482,
+      "narrowed_output_lines": 15,
+      "narrowed_output_bytes": 314
+    },
+    {
+      "pr": 17803,
+      "file": "packages/microservices/test/client/client-grpc.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 507,
+      "whole_file_bytes": 14778,
+      "narrowed_output_lines": 20,
+      "narrowed_output_bytes": 647
+    },
+    {
+      "pr": 17803,
+      "file": "packages/microservices/test/server/server-grpc.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1383,
+      "whole_file_bytes": 42390,
+      "narrowed_output_lines": 1358,
+      "narrowed_output_bytes": 41557
+    },
+    {
+      "pr": 17779,
+      "file": "packages/microservices/server/server-grpc.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 808,
+      "whole_file_bytes": 26398,
+      "narrowed_output_lines": 228,
+      "narrowed_output_bytes": 7678
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server-grpc.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 803,
+      "whole_file_bytes": 25691,
+      "narrowed_output_lines": 752,
+      "narrowed_output_bytes": 23888
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server-kafka.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 472,
+      "whole_file_bytes": 13764,
+      "narrowed_output_lines": 78,
+      "narrowed_output_bytes": 2337
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server-mqtt.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 364,
+      "whole_file_bytes": 10781,
+      "narrowed_output_lines": 46,
+      "narrowed_output_bytes": 1230
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server-nats.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 289,
+      "whole_file_bytes": 8598,
+      "narrowed_output_lines": 43,
+      "narrowed_output_bytes": 1154
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server-redis.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 301,
+      "whole_file_bytes": 8653,
+      "narrowed_output_lines": 45,
+      "narrowed_output_bytes": 1098
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server-rmq.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 491,
+      "whole_file_bytes": 14718,
+      "narrowed_output_lines": 73,
+      "narrowed_output_bytes": 1947
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server-tcp.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 262,
+      "whole_file_bytes": 8611,
+      "narrowed_output_lines": 37,
+      "narrowed_output_bytes": 1184
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/server/server.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 449,
+      "whole_file_bytes": 13480,
+      "narrowed_output_lines": 399,
+      "narrowed_output_bytes": 12211
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/test/server/server-grpc.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 1129,
+      "whole_file_bytes": 34925,
+      "narrowed_output_lines": 1112,
+      "narrowed_output_bytes": 34172
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/test/server/server-kafka.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 831,
+      "whole_file_bytes": 25324,
+      "narrowed_output_lines": 130,
+      "narrowed_output_bytes": 4304
+    },
+    {
+      "pr": 17799,
+      "file": "packages/microservices/test/server/server.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 538,
+      "whole_file_bytes": 16259,
+      "narrowed_output_lines": 526,
+      "narrowed_output_bytes": 15834
+    },
+    {
+      "pr": 17797,
+      "file": "packages/microservices/server/server-kafka.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 488,
+      "whole_file_bytes": 14215,
+      "narrowed_output_lines": 75,
+      "narrowed_output_bytes": 2178
+    },
+    {
+      "pr": 17797,
+      "file": "packages/microservices/test/server/server-kafka.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 814,
+      "whole_file_bytes": 24731,
+      "narrowed_output_lines": 814,
+      "narrowed_output_bytes": 24730
+    },
+    {
+      "pr": 17798,
+      "file": "integration/query-method/e2e/query-method-fastify.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 94,
+      "whole_file_bytes": 2784,
+      "narrowed_output_lines": 79,
+      "narrowed_output_bytes": 2221
+    },
+    {
+      "pr": 17798,
+      "file": "integration/query-method/e2e/query-method.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 121,
+      "whole_file_bytes": 3627,
+      "narrowed_output_lines": 89,
+      "narrowed_output_bytes": 2540
+    },
+    {
+      "pr": 17798,
+      "file": "integration/query-method/src/query-method.controller.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 93,
+      "whole_file_bytes": 2135,
+      "narrowed_output_lines": 93,
+      "narrowed_output_bytes": 2134
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/server/server-mqtt.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 375,
+      "whole_file_bytes": 11147,
+      "narrowed_output_lines": 37,
+      "narrowed_output_bytes": 946
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/server/server-nats.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 296,
+      "whole_file_bytes": 8913,
+      "narrowed_output_lines": 28,
+      "narrowed_output_bytes": 701
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/server/server-redis.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 312,
+      "whole_file_bytes": 9018,
+      "narrowed_output_lines": 28,
+      "narrowed_output_bytes": 699
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/server/server-rmq.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 503,
+      "whole_file_bytes": 15126,
+      "narrowed_output_lines": 45,
+      "narrowed_output_bytes": 1168
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/server/server-tcp.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 275,
+      "whole_file_bytes": 9025,
+      "narrowed_output_lines": 25,
+      "narrowed_output_bytes": 731
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/test/server/server-mqtt.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 539,
+      "whole_file_bytes": 18597,
+      "narrowed_output_lines": 535,
+      "narrowed_output_bytes": 18245
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/test/server/server-nats.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 427,
+      "whole_file_bytes": 13347,
+      "narrowed_output_lines": 421,
+      "narrowed_output_bytes": 12961
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/test/server/server-redis.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 402,
+      "whole_file_bytes": 13075,
+      "narrowed_output_lines": 398,
+      "narrowed_output_bytes": 12719
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/test/server/server-rmq.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 581,
+      "whole_file_bytes": 19087,
+      "narrowed_output_lines": 579,
+      "narrowed_output_bytes": 18828
+    },
+    {
+      "pr": 17794,
+      "file": "packages/microservices/test/server/server-tcp.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 334,
+      "whole_file_bytes": 11144,
+      "narrowed_output_lines": 322,
+      "narrowed_output_bytes": 10593
+    },
+    {
+      "pr": 17781,
+      "file": "packages/microservices/server/server-kafka.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 473,
+      "whole_file_bytes": 13765,
+      "narrowed_output_lines": 14,
+      "narrowed_output_bytes": 409
+    },
+    {
+      "pr": 17781,
+      "file": "packages/microservices/server/server.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 405,
+      "whole_file_bytes": 11854,
+      "narrowed_output_lines": 355,
+      "narrowed_output_bytes": 10585
+    },
+    {
+      "pr": 17781,
+      "file": "packages/microservices/test/server/server-kafka.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 704,
+      "whole_file_bytes": 21173,
+      "narrowed_output_lines": 82,
+      "narrowed_output_bytes": 2675
+    },
+    {
+      "pr": 17781,
+      "file": "packages/microservices/test/server/server-tcp.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 272,
+      "whole_file_bytes": 9140,
+      "narrowed_output_lines": 35,
+      "narrowed_output_bytes": 1234
+    },
+    {
+      "pr": 17781,
+      "file": "packages/microservices/test/server/server.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 371,
+      "whole_file_bytes": 11387,
+      "narrowed_output_lines": 359,
+      "narrowed_output_bytes": 10955
+    },
+    {
+      "pr": 17780,
+      "file": "packages/common/pipes/parse-date.pipe.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 82,
+      "whole_file_bytes": 2407,
+      "narrowed_output_lines": 14,
+      "narrowed_output_bytes": 386
+    },
+    {
+      "pr": 17780,
+      "file": "packages/common/test/pipes/parse-date.pipe.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 79,
+      "whole_file_bytes": 2824,
+      "narrowed_output_lines": 79,
+      "narrowed_output_bytes": 2674
+    },
+    {
+      "pr": 17785,
+      "file": "packages/microservices/server/server-mqtt.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 369,
+      "whole_file_bytes": 10961,
+      "narrowed_output_lines": 8,
+      "narrowed_output_bytes": 220
+    },
+    {
+      "pr": 17785,
+      "file": "packages/microservices/server/server-nats.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 290,
+      "whole_file_bytes": 8741,
+      "narrowed_output_lines": 8,
+      "narrowed_output_bytes": 233
+    },
+    {
+      "pr": 17785,
+      "file": "packages/microservices/server/server-redis.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 306,
+      "whole_file_bytes": 8831,
+      "narrowed_output_lines": 11,
+      "narrowed_output_bytes": 425
+    },
+    {
+      "pr": 17785,
+      "file": "packages/microservices/test/server/server-mqtt.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 490,
+      "whole_file_bytes": 17044,
+      "narrowed_output_lines": 181,
+      "narrowed_output_bytes": 6718
+    },
+    {
+      "pr": 17785,
+      "file": "packages/microservices/test/server/server-nats.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 371,
+      "whole_file_bytes": 11615,
+      "narrowed_output_lines": 20,
+      "narrowed_output_bytes": 809
+    },
+    {
+      "pr": 17785,
+      "file": "packages/microservices/test/server/server-redis.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 354,
+      "whole_file_bytes": 11478,
+      "narrowed_output_lines": 68,
+      "narrowed_output_bytes": 2151
+    },
+    {
+      "pr": 17769,
+      "file": "packages/platform-express/multer/multer/multer.constants.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 20,
+      "whole_file_bytes": 868,
+      "narrowed_output_lines": 12,
+      "narrowed_output_bytes": 495
+    },
+    {
+      "pr": 17769,
+      "file": "packages/platform-express/multer/multer/multer.utils.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 50,
+      "whole_file_bytes": 1983,
+      "narrowed_output_lines": 43,
+      "narrowed_output_bytes": 1642
+    },
+    {
+      "pr": 17769,
+      "file": "packages/platform-express/test/multer/multer/multer.utils.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 117,
+      "whole_file_bytes": 4376,
+      "narrowed_output_lines": 95,
+      "narrowed_output_bytes": 3587
+    },
+    {
+      "pr": 17766,
+      "file": "packages/microservices/server/server-kafka.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 473,
+      "whole_file_bytes": 13764,
+      "narrowed_output_lines": 24,
+      "narrowed_output_bytes": 517
+    },
+    {
+      "pr": 17766,
+      "file": "packages/microservices/test/server/server-kafka.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 680,
+      "whole_file_bytes": 20397,
+      "narrowed_output_lines": 666,
+      "narrowed_output_bytes": 19774
+    },
+    {
+      "pr": 17738,
+      "file": "packages/common/pipes/parse-uuid.pipe.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 98,
+      "whole_file_bytes": 3120,
+      "narrowed_output_lines": 8,
+      "narrowed_output_bytes": 623
+    },
+    {
+      "pr": 17738,
+      "file": "packages/common/test/pipes/parse-uuid.pipe.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 162,
+      "whole_file_bytes": 6333,
+      "narrowed_output_lines": 142,
+      "narrowed_output_bytes": 5553
+    },
+    {
+      "pr": 17754,
+      "file": "packages/common/test/pipes/parse-uuid.pipe.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 152,
+      "whole_file_bytes": 5970,
+      "narrowed_output_lines": 135,
+      "narrowed_output_bytes": 5195
+    },
+    {
+      "pr": 17757,
+      "file": "packages/microservices/client/client-kafka.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 453,
+      "whole_file_bytes": 13065,
+      "narrowed_output_lines": 21,
+      "narrowed_output_bytes": 541
+    },
+    {
+      "pr": 17757,
+      "file": "packages/microservices/client/client-mqtt.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 364,
+      "whole_file_bytes": 10818,
+      "narrowed_output_lines": 23,
+      "narrowed_output_bytes": 549
+    },
+    {
+      "pr": 17757,
+      "file": "packages/microservices/test/client/client-kafka.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 947,
+      "whole_file_bytes": 26906,
+      "narrowed_output_lines": 29,
+      "narrowed_output_bytes": 1013
+    },
+    {
+      "pr": 17757,
+      "file": "packages/microservices/test/client/client-mqtt.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 555,
+      "whole_file_bytes": 18800,
+      "narrowed_output_lines": 56,
+      "narrowed_output_bytes": 1799
+    },
+    {
+      "pr": 17761,
+      "file": "packages/common/pipes/standard-schema-validation.pipe.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 173,
+      "whole_file_bytes": 5748,
+      "narrowed_output_lines": 15,
+      "narrowed_output_bytes": 446
+    },
+    {
+      "pr": 17761,
+      "file": "packages/common/pipes/validation.pipe.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 376,
+      "whole_file_bytes": 13217,
+      "narrowed_output_lines": 71,
+      "narrowed_output_bytes": 2621
+    },
+    {
+      "pr": 17761,
+      "file": "packages/common/test/pipes/standard-schema-validation.pipe.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 553,
+      "whole_file_bytes": 18047,
+      "narrowed_output_lines": 30,
+      "narrowed_output_bytes": 1060
+    },
+    {
+      "pr": 17761,
+      "file": "packages/common/test/pipes/validation.pipe.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 758,
+      "whole_file_bytes": 24999,
+      "narrowed_output_lines": 27,
+      "narrowed_output_bytes": 943
+    },
+    {
+      "pr": 17746,
+      "file": "packages/microservices/client/client-tcp.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 233,
+      "whole_file_bytes": 6976,
+      "narrowed_output_lines": 214,
+      "narrowed_output_bytes": 6203
+    },
+    {
+      "pr": 17746,
+      "file": "packages/microservices/helpers/json-socket.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 235,
+      "whole_file_bytes": 7913,
+      "narrowed_output_lines": 235,
+      "narrowed_output_bytes": 7912
+    },
+    {
+      "pr": 17746,
+      "file": "packages/microservices/helpers/tcp-socket.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 87,
+      "whole_file_bytes": 2299,
+      "narrowed_output_lines": 81,
+      "narrowed_output_bytes": 2004
+    },
+    {
+      "pr": 17746,
+      "file": "packages/microservices/interfaces/client-metadata.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 68,
+      "whole_file_bytes": 2091,
+      "narrowed_output_lines": 29,
+      "narrowed_output_bytes": 1211
+    },
+    {
+      "pr": 17746,
+      "file": "packages/microservices/interfaces/microservice-configuration.interface.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 381,
+      "whole_file_bytes": 10793,
+      "narrowed_output_lines": 31,
+      "narrowed_output_bytes": 1271
+    },
+    {
+      "pr": 17746,
+      "file": "packages/microservices/server/server-tcp.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 237,
+      "whole_file_bytes": 7668,
+      "narrowed_output_lines": 205,
+      "narrowed_output_bytes": 6625
+    },
+    {
+      "pr": 17746,
+      "file": "packages/microservices/test/helpers/json-socket.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 304,
+      "whole_file_bytes": 10158,
+      "narrowed_output_lines": 304,
+      "narrowed_output_bytes": 10157
+    },
+    {
+      "pr": 17745,
+      "file": "packages/microservices/server/server-tcp.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 255,
+      "whole_file_bytes": 8263,
+      "narrowed_output_lines": 223,
+      "narrowed_output_bytes": 7220
+    },
+    {
+      "pr": 17745,
+      "file": "packages/microservices/test/server/server-tcp.spec.ts",
+      "language": "typescript",
+      "scope": "structural",
+      "whole_file_lines": 271,
+      "whole_file_bytes": 9094,
+      "narrowed_output_lines": 256,
+      "narrowed_output_bytes": 8534
+    }
+  ]
+}
