@@ -145,7 +145,7 @@ doesn't mean, and per-file raw results: [`paper/ast-context-narrowing.md`](paper
 
 ## Further reading
 
-- [`paper/ast-context-narrowing.md`](paper/ast-context-narrowing.md) — full technical write-up (motivation, method, evaluation, related work, limitations).
+- [`paper/ast-context-narrowing.pdf`](paper/ast-context-narrowing.pdf) — full technical write-up as a formatted PDF (motivation, method, evaluation, related work, limitations). Also available as [Markdown](paper/ast-context-narrowing.md) or [LaTeX source](paper/ast-context-narrowing.tex).
 - [`blog/ast-context-narrowing-blog.md`](blog/ast-context-narrowing-blog.md) — shorter, less formal version of the same content.
 
 ## Origin
