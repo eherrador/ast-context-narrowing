@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ast-context-narrowing"
-version = "0.1.0"
+version = "0.1.1"
 description = "Narrow a code diff to the structural definition (method/function/class/field) it touched, instead of the raw hunk or the whole file."
 readme = "README.md"
 license = { text = "MIT" }
