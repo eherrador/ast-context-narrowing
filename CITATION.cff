@@ -3,6 +3,7 @@ message: "If you use this software or its accompanying paper, please cite it as 
 title: "ast-context-narrowing: AST-Based Structural Narrowing for Diff Context"
 version: 0.1.0
 date-released: 2026-09-22
+doi: 10.5281/zenodo.22905152
 authors:
   - family-names: Herrador
     given-names: Edgar
